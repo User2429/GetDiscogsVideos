@@ -16,4 +16,4 @@ The user need only copy the executable and script files to whatever folder they 
 For Windows the files are `GetDiscogsVideos.exe` and `PS_GetDiscogsVideos.ps1`.<br>For Linux they are `GetDiscogsVideos` and either of `PS_GetDiscogsVideos.ps1` or `AB_GetDiscogsVideos.sh`.<br>The latter is a bash script which may be used in place of the `.ps1` script if PowerShell is not available in Linux.
 
 ## Details
-Details of usage and methodology are given in the [documentation](https://github.com/User2429/GetDiscogsRelease/blob/master/docs/Documentation.md).
+Details of usage and methodology are given in the [documentation](https://github.com/User2429/GetDiscogsVideos/blob/master/docs/Documentation.md).
