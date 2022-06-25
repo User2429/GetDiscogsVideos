@@ -105,7 +105,7 @@ Each line of the output file contains the data for one release.<br>The data writ
 The output `csv` file has no header row.
 
 ##### Record Processing
-Repeated instances of the first label in the input file are omitted in `Labels`. So, e.g. Label1, Label1 in the file will appear as Label1 in the ouput. This does not apply, however, to labels after the first, so Label1, Label2, Label1, Label2 would appear in the output as Label1, Label2, Label2.
+Repeated instances of the first label in the input file are omitted in `Labels`. So, e.g., Label1, Label1 in the file will appear as Label1 in the output. This does not apply, however, to labels after the first, so Label1, Label2, Label1, Label2 would appear in the output as Label1, Label2, Label2.
 
 The XML escape strings `&amp;` `&apos;` `&gt;` `&lt;` and `&quot;` are replaced in the output by `&` `'` `>` `<` and `"` respectively. The alternate representations `&#38;` `&#39;` `&#62;` `&#60;` and `&#34;` are replaced in the same way. `\n` `\r` and `&#13;` (XML code for `\r`) are replaced by strings of length zero `""`.
 
